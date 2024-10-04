@@ -48,37 +48,24 @@ def clean_filename(filename):
 def get_pdf_text(uploaded_file): 
     """
     Load a PDF document from an uploaded file and return it as a list of documents.
-
-    Parameters:
-        uploaded_file (file-like object): The uploaded PDF file to load.
-
-    Returns:
-        list: A list of documents created from the uploaded PDF file.
     """
-    if not uploaded_file:
-        raise ValueError("No file uploaded. Please upload a PDF document.")
-        
     try:
-        # Read file content
         input_file = uploaded_file.read()
-
-        # Create a temporary file
-        temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.pdf')
+        temp_file = tempfile.NamedTemporaryFile(delete=False)
         temp_file.write(input_file)
         temp_file.close()
 
-        # Load PDF document
         loader = PyPDFLoader(temp_file.name)
         documents = loader.load()
 
         return documents
-    
+
     except Exception as e:
         raise RuntimeError(f"An error occurred while reading the PDF: {e}")
-    
+
     finally:
-        # Ensure the temporary file is deleted when we're done with it
         os.unlink(temp_file.name)
+
 
 
 def split_document(documents, chunk_size, chunk_overlap):    
