@@ -1,0 +1,5 @@
+myenv
+.env
+dockerfile
+data_extraction_llm.ipynb
+__pycache__
