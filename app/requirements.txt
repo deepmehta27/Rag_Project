@@ -11,4 +11,4 @@ langchain==0.3.2
 langchain_openai==0.2.1     
 langchain_community==0.3.1
 altair==4.2.0
-pypdf>=3.0.0  # Added pypdf here
+pypdf>=3.0.0
