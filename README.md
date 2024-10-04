@@ -20,11 +20,11 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-pip install -r requirements.txt
-streamlit run Rag_llm.py
+- pip install -r requirements.txt
+- streamlit run Rag_llm.py
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/deepmehta27/Insight_finder.git
-   cd Insight_finder
+   cd Rag_Project
