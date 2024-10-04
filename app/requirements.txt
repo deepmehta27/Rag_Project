@@ -12,36 +12,3 @@ langchain==0.3.2
 langchain_openai==0.2.1     
 langchain_community==0.3.1
 altair==4.2.0
-
-# For data validation and settings management
-pydantic>=1.10.0
-
-# For working with vector databases
-chromadb>=0.3.21
-
-# For OpenAI API interaction
-openai>=0.27.0
-
-# For PDF document handling
-PyPDF2>=3.0.0
-
-# For handling Word documents
-python-docx>=0.8.11
-
-# UUID for generating unique identifiers
-uuid 
-
-# Streamlit for building the web app
-streamlit==1.19.0              
-
-# LangChain for LLM integration
-langchain==0.3.2
-
-# OpenAI-specific components for LangChain
-langchain_openai==0.2.1         
-
-# Community contributions and loaders for LangChain
-langchain_community==0.3.1
-
-# Visualization library
-altair==5.0.0
