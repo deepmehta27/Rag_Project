@@ -286,7 +286,7 @@ def query_document(vectorstore, query, api_key):
 
     :return: A formatted string containing the answer and reasoning
     """
-    llm = ChatOpenAI(model="gpt-4o-mini", api_key=api_key)
+    llm = ChatOpenAI(model="gpt-4o", api_key=api_key)
 
     retriever = vectorstore.as_retriever(search_type="similarity")
 
