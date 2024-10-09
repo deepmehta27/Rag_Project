@@ -133,7 +133,7 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 def query_document(vectorstore, query, api_key):
-    llm = ChatOpenAI(model="gpt-40-mini", api_key=api_key)
+    llm = ChatOpenAI(model="gpt-4o-mini", api_key=api_key)
     retriever = vectorstore.as_retriever(search_type="similarity")
 
     prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
