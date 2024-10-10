@@ -11,6 +11,11 @@ langchain==0.3.2
 langchain_openai==0.2.1     
 langchain_community==0.3.1
 altair==4.2.0
+<<<<<<< HEAD
 pypdf>=3.0.0  # Added pypdf here
 pypdfium2>=4.18.0
 sqlite3==3.46.1
+=======
+pypdf>=3.0.0
+pypdfium2>=4.18.0
+>>>>>>> e8302b1c8b3a1246781daf2705261db1ab5afcb7

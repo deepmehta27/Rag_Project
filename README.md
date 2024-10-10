@@ -7,7 +7,7 @@ InsightFinder is a powerful web application designed for researchers and student
 ## Features 🌟
 
 - **Seamless PDF Upload**: Easily upload your research papers for analysis.
-- **AI-Powered Insights**: Get detailed summaries, titles, publication years, authors, and future research directions with just a click.
+- **AI-Powered Insights**: Get detailed summaries, titles, publication years, authors, citation, and future research directions with just a click.
 - **User-Friendly Interface**: Our intuitive design ensures a smooth experience for all users.
 
 ## Prerequisites
